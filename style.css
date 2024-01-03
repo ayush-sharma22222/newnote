@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    height: 100vh;
+    width: 100%;
+
+}
+.upper-btn {
+    height: 10vh;
+    width: 100%;
+
+}
+#btn {
+    float: right;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button {
+    color: rgb(249, 250, 247);
+    background-color: rgb(78, 240, 78);
+    width: 10%;
+    height: 5vh;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 17px;
+
+}
+#btn:hover {
+    background-color: rgb(4, 233, 4);
+    font-size: 20px;
+    transition: ease-in 0.1s;
+}
+.content {
+    background-color: #FABE00;
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+}
+.text {
+    text-align: center;
+    padding-top: 17%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 10%;
+}
+.content h1 {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.add {
+    background-color: white;
+    width: 30vw;
+    height: 25vh;
+    border-radius: 15px;
+    float: right;
+    margin: 2%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.add i {
+    font-size: 4vw;
+    float: right;
+    margin-top: 26%;
+}
+.add a {
+    /* text-decoration: none; */
+    color: rgb(82, 247, 5);
+}
+.add p {
+    font-size: 20vw;
+    color: grey;
+    margin-top: 30%;
+    padding-left: 3%;
+}
+.add p {
+    width: 26ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5vw;
+}
+.popup {
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.475);
+}
+form {
+    border-radius: 10px;
+    background-color: rgb(228, 228, 228);
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+}
+input {
+    height: 50px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    border-style: none;
+
+}
+.login-menu {
+    padding-top: 5vh;
+}
+#sign {
+    font-size: 3vw;
+    padding-bottom: 20px;
+    color: rgb(227, 144, 0);
+}
+.btnn {
+    height: 50px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(255, 183, 0);
+    border-style: none;
+    font-size: 1vw;
+    color: rgb(253, 5, 5);
+    padding: 10px;
+}
+#form a{
+    font-size: 1vw;
+
+}
+@keyframes typing {
+    from {
+        width: 0
+    }
+    
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
